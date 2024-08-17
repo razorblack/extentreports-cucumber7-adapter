@@ -454,7 +454,7 @@ public class ExtentService implements Serializable {
 				return Status.INFO;
 			case "pass":
 				return Status.PASS;
-			case "Warning":
+			case "warning":
 				return Status.WARNING;
 			case "skip":
 				return Status.SKIP;
